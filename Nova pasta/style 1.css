@@ -1,0 +1,109 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: lightpink;
+ 
+}
+header{
+    background-color: lemonchiffon;
+    padding: 8px 2px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+}
+nav ul li{
+    display: inline;
+    margin:0 15px;
+
+}
+
+
+
+img{ 
+    width: 400px;
+    height: 300px;
+    border-style: solid; color: indianred;
+}
+
+section img.index{
+    border-radius: 50%;
+    width: 400px;
+    height: 305px;
+    
+   
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    outline-style:none;
+    
+    
+}
+
+#formulario{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+#formulario input[type="text"],
+#formulario input [type="email"]
+#formulario textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid;
+    box-sizing: border-box; 
+} 
+
+#formulario textarea{
+    height: 100px;
+
+}
+#formulario input[type="submit"]{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkseagreen;
+    cursor: pointer;
+    transition: 0.3s;
+}
+main{
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: #333;
+}
+section{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-style: dotted;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow:0 0 10px rgba (0,0,0,0.1);
+}
+.´portfolio{
+    width: 50%;
+}
+
+ul li.´portfolio{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+footer{
+    background-color: blanchedalmond;
+    color: #fff;
+}
